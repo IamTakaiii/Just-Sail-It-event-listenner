@@ -2,7 +2,7 @@ import express from "express"
 import dotenv from "dotenv"
 
 import { ContractEventHook } from "./services/SmartContact/ContractEventHook.js"
-import { RedisConnect } from "./services/RedisPubSub/PubSub.js"
+import { RedisConnect, redis_publisher } from "./services/RedisPubSub/PubSub.js"
 
 dotenv.config()
 
